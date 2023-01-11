@@ -1,0 +1,166 @@
+/****************************NICE FONTS**************************/
+/***************************
+font-family: 'Comic Neue', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Sacramento', cursive;
+***************************/
+
+div{
+    background-color: #FFFFFF;
+}
+
+body{
+    margin: 100;
+    text-align: center;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', 'cursive';
+    font-size: 5.625em; /* 100% is 16px or 1em or 1rem*/
+    color: #66BFBF;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family:"Comic Sans MS", sans-serif;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+h3{
+    
+    color: #11999e;
+    
+}
+
+a{
+ color: #66BFBF;
+}
+/*
+img{
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+*/
+.topcontainer{
+    background-color: #E4F9F5;
+    position:relative;
+    padding-top: 100px;
+}
+
+.middlecontainer{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 20px;
+   
+}
+
+.bottomcontainer{
+    /*color:aliceblue;*/
+    background-color: #E4F9F5;
+    height: 300px;
+    width: 300px;
+  
+}
+
+
+.top-cloud{
+    position:absolute;
+    right:300px;
+    top:50px
+
+}
+
+.bottom-cloud{
+    position:absolute;
+    left:300px;
+    top: 300px;
+}
+
+.skill-row{
+    display: inline-block;
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.aws-logo{
+    width: 200px;
+    height: auto;
+    float: right;
+    margin-left: 30px;
+}
+
+.computer-image{
+    width: 25%;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+}
+
+/*
+.aws-skills{
+    clear: right;
+}*/
+
+
+#get-in-touch{
+    width: 10%;
+    margin: 0 auto 0 auto;
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color:  #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+#get-in-touch:hover{
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.footer-link{
+    color: #11999e;
+}
+
+
+.hao-image{
+    visibility: visible;
+    width: 15%;
+    height: auto;
+    margin-right: 30px;
+    clear: right;
+}
+
+
+.contact-me{
+
+    background-color: #E4F9F5;
+    /*
+    display: inline-block;
+    margin-bottom: -5;
+    position: relative;
+    top: 32px;
+    */
+}
